@@ -57,7 +57,7 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "http://jokesfrontend.s3-website.us-east-2.amazonaws.com/"]
 
 ROOT_URLCONF = 'jokesbackend.urls'
 
